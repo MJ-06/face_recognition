@@ -78,5 +78,5 @@ def recognize_faces(image_location: str, model: str = "hog", encodings_location:
     del draw
     pillow_image.show()
 
-recognize_faces("anannya.jpg")
-recognize_faces("anannyaharshita.jpg")
+recognize_faces("image1.jpg")
+recognize_faces("image2.jpg")
